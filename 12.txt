@@ -1,0 +1,17 @@
+$ sudo apt-get update 
+$ sudo apt-get install default-jdk
+
+$ sudo apt-get install scala
+$ scala –version
+
+object Hello {
+    def main(args: Array[String]) = {
+        println("Hello, world")
+    }
+}
+
+
+scala 
+	println(“Hello World”)
+
+scala Hello
