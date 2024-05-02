@@ -4,6 +4,14 @@ $ sudo apt-get install default-jdk
 $ sudo apt-get install scala
 $ scala –version
 
+# code 1
+object Sample {
+         def main(args: Array[String]) = {
+                 println(“Hello, world”)
+         }
+}
+
+# code 2
 object Hello {
     def main(args: Array[String]) = {
         println("Hello, world")
